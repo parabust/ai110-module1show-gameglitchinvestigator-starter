@@ -25,13 +25,18 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [x] Describe the game's purpose.
+The purpose of the game is to be a number guessing game. Users have a toggleable hint option and different difficulties to configure their game experience.
+- [x] Detail which bugs you found.
+Bugs found: "New game" button didn't start new games, "High/Low" indicators did not correctly display the correct hints, Comparisons between guess and secret was also incorrectly handled.
+- [x] Explain what fixes you applied.
+Resetted the game status so players wouldn't be stuck on a won/lost game. Removed string comparisons and enforced integer inputs. Updated high/low messages.
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+- [x] [Insert a screenshot of your fixed, winning game here]
+<img width="1909" height="1009" alt="image" src="https://github.com/user-attachments/assets/e60808da-6f31-470a-b9ca-fd3e41db9939" />
+
 
 ## 🚀 Stretch Features
 
