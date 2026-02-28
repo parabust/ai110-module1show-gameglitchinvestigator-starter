@@ -25,11 +25,11 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [x] Describe the game's purpose.
+- [x] Describe the game's purpose.\n
 The purpose of the game is to be a number guessing game. Users have a toggleable hint option and different difficulties to configure their game experience.
-- [x] Detail which bugs you found.
+- [x] Detail which bugs you found.\n
 Bugs found: "New game" button didn't start new games, "High/Low" indicators did not correctly display the correct hints, Comparisons between guess and secret was also incorrectly handled.
-- [x] Explain what fixes you applied.
+- [x] Explain what fixes you applied.\n
 Resetted the game status so players wouldn't be stuck on a won/lost game. Removed string comparisons and enforced integer inputs. Updated high/low messages.
 
 ## 📸 Demo
