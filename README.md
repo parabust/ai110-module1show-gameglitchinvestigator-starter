@@ -9,6 +9,9 @@ It wrote the code, ran away, and now the game is unplayable.
 - The hints lie to you.
 - The secret number seems to have commitment issues.
 
+## Draft of Guiding Hint
+We noticed that the "New game" button isn't working, so let's try and locate where the issue potentially is. Let's use Claude to locate the logic to save us some time and we can decide on how to proceed from there.
+
 ## 🛠️ Setup
 
 1. Install dependencies: `pip install -r requirements.txt`
